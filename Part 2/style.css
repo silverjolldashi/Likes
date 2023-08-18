@@ -1,0 +1,56 @@
+body{
+    width: 760px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.network{
+    background-color: black;
+    color: white;
+}
+
+.feed{
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    margin-top: 20px;
+    padding: auto;
+    text-align: center;
+    border: black 1px solid;
+    flex-basis: 250px;
+    height: fit-content;
+}
+
+*{
+    font-style: arial;
+}
+
+.container{
+    border: solid black 1px;
+    padding: 15px;
+    height: 140px;
+    margin-top: 20px;
+}
+
+.row_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#likeButton1,#likeButton2,#likeButton3{
+    background-color: yellow;
+    box-shadow: 5px 5px 5px black
+}
+
+.right{
+    flex-basis: 450px;
+    display: flex;
+    flex-direction: column;
+}
